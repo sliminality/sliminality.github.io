@@ -1,5 +1,0 @@
-# Run harp compile
-harp compile ./ ../
-
-# Copy README
-cp ./_README.md ../README.md

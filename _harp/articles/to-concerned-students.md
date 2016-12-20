@@ -1,9 +1,0 @@
-The Facebook response to Mizzou (and Yale) is cautiously encouraging, but also potentially dangerous. It's super easy to retweet, "Gunning down black students on campus is bad!" Congrats, you've unlocked human decency level 0; have a cookie. But in all seriousness, while it's obviously chill to condemn antiblackness and racism, we MUST remain attentive to the ways our institutions and our own actions are complicit with these structures, and transcend the Facebook bubble to act against them.
-
-As an Asian student, I do not experience the same violence as black and brown folks. Yes, complex and problematic racial sentiments toward Asians abound. The model minority myth exacerbates the historical marginalization of certain Asian nationalities, for whom I cannot speak. But the experience of being dismissed as a bitchy tiger woman or docile sexual servant is qualitatively different from being considered lazy or dumb by default, or from having death threats issued against me on Yik Yak.
-
-Before you cry "oppression Olympics," this isn't a comparative judgment, but one which acknowledges distinctions between experiences. While "asexual nerd" stereotypes and arson of black churches share roots in racist/antiblack ideologies, they are hardly identical manifestations thereof.
-
-Your solidarity is the first step. What else are you going to do? How will you, on a day-to-day basis, challenge racist assumptions, hold yourself and your friends accountable, educate others, and actively work to dismantle structures of oppression? These are the things we must consider; otherwise... ‪#‎ConcernedStudent1950‬ looks an awful lot like ‪#‎Kony2015‬.
-
-tldr; for us non-black/brown students proclaiming solidarity with Mizzou, it's a red flag to not consider how the same structures rear their ugly heads in our backyards, and how we will join the fight through actions beyond social media. Also, no cookies for us.
