@@ -1,5 +1,5 @@
 /**
- * Colors
+ * Colors: accessed using get-color function
  */
 $colors: (
   'sage': hsl(146, 49%, 68%),
@@ -7,6 +7,7 @@ $colors: (
   'cinderella': hsl(12, 100%, 89%),
   'yellow': hsl(53, 93%, 84%),
   'violet': hsl(232, 50%, 45%),
+  'dark': hsl(0, 0, 20%),
 );
 
 /**
@@ -29,10 +30,17 @@ $serif-display: (
   serif,
 );
 
-$serif-body: (
+$serif: (
   'Leitura News',
   'Hoefler Text',
   'Garamond',
   'Georgia',
   serif
 );
+
+/**
+ * Spacing Values
+ */
+
+$left-padding: 1rem;
+$right-padding: 1rem;

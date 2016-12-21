@@ -1,0 +1,13 @@
+/**
+ * Get hex color value based on name.
+ * @param  {String} $color-name description e.g. 'salmon'
+ * @requires $colors
+ * @return {Color}             hexadecimal color
+ */
+@function get-color($color-name) {
+  @if map-has-key($colors, $color-name) {
+    @return map-get($colors, $color-name);
+  } @else {
+    @error 'Color `#{$color-name}` not found, make sure it is defined in `$colors`';
+  }
+}
