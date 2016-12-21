@@ -8,6 +8,8 @@
     "declaration-colon-space-after": "always-single-line",
     "declaration-block-no-duplicate-properties": [ "true", {
       "ignore": [ "consecutive-duplicates-with-different-values" ]
-    } ]
+    } ],
+    "declaration-block-properties-order": "ignore",
+    "number-leading-zero": "always",
   }
 }
