@@ -28,7 +28,7 @@
   }
 }
 
-/// Responsive breakpoint handler
+/// Responsive breakpoint handler.
 /// @param {String} $breakpoint - the semantic breakpoint, e.g. 'full-nav'
 /// @requires $breakpoints
 @mixin handle-breakpoint($breakpoint) {
@@ -46,5 +46,23 @@
     }
   } @else {
     @error 'No value found for `#{$breakpoint}`, make sure it is defined in `$breakpoints`';
+  }
+}
+
+/// Set the text color for a section, including anchors.
+/// @param {String} $color - a valid color
+@mixin text-color($color) {
+  color: $color;
+
+  a {
+    color: $color;
+    border-color: $color;
+  }
+
+  a:hover,
+  a.active,
+  a.visited {
+    color: darken($color, 20%);
+    border-color: darken($color, 20%);
   }
 }
