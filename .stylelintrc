@@ -11,5 +11,10 @@
     } ],
     "declaration-block-properties-order": "ignore",
     "number-leading-zero": "always",
+    "block-closing-brace-newline-after": [ "always", {
+      "ignoreAtRules": ["if", "else"]
+    } ],
+    "at-rule-empty-line-before": "never",
+    "max-line-length": 120,
   }
 }
