@@ -1,10 +1,23 @@
 /**
  * 1. Set 1rem = 10px.
+ * 2. Make fonts not look disgusting.
+ * 3. Make the box model not horrifically broken.
  */
 html {
-  font-size: 62.5%;  // 1
-  -webkit-font-smoothing: antialiased;
+  font-size: 62.5%;  /* 1 */
+  -webkit-font-smoothing: antialiased;  /* 2 */
+  -moz-osx-font-smoothing: grayscale;  /* 2 */
+  box-sizing: border-box;  /* 3 */
 }
+
+/**
+ * Inherit border-box all the way down.
+ */
+ *,
+ *:before,
+ *:after {
+   box-sizing: inherit;
+ }
 
 /**
  * 1. Increase margin below block code.
