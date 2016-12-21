@@ -38,6 +38,7 @@
     "eslint-plugin-react": "^6.8.0",
     "postcss": "^5.2.6",
     "stylelint": "^7.7.0",
-    "stylelint-config-guidelines": "^1.1.5"
+    "stylelint-config-guidelines": "^1.1.5",
+    "stylelint-scss": "^1.4.1"
   }
 }

@@ -1,0 +1,10 @@
+/**
+ * Import font files in EOT, WOFF, and TTF format.
+ * @param  {String} $file-name name of font file, minus extension
+ */
+@mixin font-src($file-name) {
+  src: url('`#{$file-name}.eot`');
+  src:
+    url('`#{$file-name}.woff`') format('woff'),
+    url('`#{$file-name}.ttf`') format('truetype');
+}

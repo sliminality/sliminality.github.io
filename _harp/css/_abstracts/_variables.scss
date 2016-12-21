@@ -1,0 +1,38 @@
+/**
+ * Colors
+ */
+$colors: (
+  'sage': hsl(146, 49%, 68%),
+  'salmon': hsl(2, 65%, 71%),
+  'cinderella': hsl(12, 100%, 89%),
+  'yellow': hsl(53, 93%, 84%),
+  'violet': hsl(232, 50%, 45%),
+);
+
+/**
+ * Font Stacks
+ */
+$sans-serif: (
+  'Larsseit',
+  'Futura',
+  'Helvetica Neue',
+  'Helvetica',
+  'Arial',
+  sans-serif,
+);
+
+$serif-display: (
+  'Leitura Display',
+  'Hoefler Text',
+  'Garamond',
+  'Georgia',
+  serif,
+);
+
+$serif-body: (
+  'Leitura News',
+  'Hoefler Text',
+  'Garamond',
+  'Georgia',
+  serif
+);

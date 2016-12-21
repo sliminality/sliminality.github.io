@@ -1,0 +1,67 @@
+/**
+ * Larsseit: sans-serif
+ */
+
+@font-face {
+  @include font-src('Larsseit')
+  font-family: 'Larsseit';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  @include font-src('Larsseit-Bold');
+  font-family: 'Larsseit';
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  @include font-src('Larsseit-Light');
+  font-family: 'Larsseit';
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  @include font-src('Larsseit-Medium');
+  font-family: 'Larsseit';
+  font-style: normal;
+  font-weight: 500;
+}
+
+/**
+ * Leitura Display: serif headlines
+ */
+
+@font-face {
+  @include font-src('LeituraDisplay-Roman');
+  font-family: 'Leitura Display';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  @include font-src('LeituraDisplay-Italic')
+  font-family: 'Leitura Display';
+  font-style: italic;
+  font-weight: 400;
+}
+
+/**
+ * Leitura News: serif body
+ */
+
+@font-face {
+  @include font-src('LeituraNews-Roman2');
+  font-family: 'Leitura News';
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  @include font-src('LeituraNews-Italic2')
+  font-family: 'Leitura News';
+  font-style: italic;
+  font-weight: 400;
+}

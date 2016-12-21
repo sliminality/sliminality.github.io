@@ -1,10 +1,11 @@
 /* Abstract declarations */
-@import 'abstracts/variables';
-@import 'abstracts/functions';
-@import 'abstracts/mixins';
+@import '_abstracts/variables';
+@import '_abstracts/functions';
+@import '_abstracts/mixins';
 
-@import 'vendors/normalize';
+@import '_vendors/normalize';
 
-@import 'base/helpers';
-@import 'base/typography';
-@import 'base/base';
+@import '_base/helpers';
+@import '_base/fonts';
+@import '_base/base';
+@import '_base/typography';

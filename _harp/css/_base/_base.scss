@@ -1,0 +1,14 @@
+/**
+ * 1. Set 1rem = 10px.
+ * 2. Define base typography.
+ */
+html {
+  font-size: 62.5%;  // 1
+}
+
+body {
+  font-family: $sans-serif;
+  font-size: 1.6rem;  // 1
+  line-height: 1.2;
+}
+
