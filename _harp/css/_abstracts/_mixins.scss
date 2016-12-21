@@ -27,3 +27,24 @@
     #{$prop}: 0;
   }
 }
+
+/// Responsive breakpoint handler
+/// @param {String} $breakpoint - the semantic breakpoint, e.g. 'full-nav'
+/// @requires $breakpoints
+@mixin handle-breakpoint($breakpoint) {
+  $lookup: map-get($breakpoints, $breakpoint);
+
+  @if $lookup {
+    $query: if(
+      type-of($lookup) == 'string',
+      unquote($lookup),
+      inspect($lookup)
+    );
+
+    @media (min-width: $query) {
+      @content;
+    }
+  } @else {
+    @error 'No value found for `#{$breakpoint}`, make sure it is defined in `$breakpoints`';
+  }
+}

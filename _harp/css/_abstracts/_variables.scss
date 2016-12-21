@@ -1,5 +1,6 @@
 /**
- * Colors: accessed using get-color function
+ * Colors.
+ * Accessed with function get-color.
  */
 $colors: (
   'sage': hsl(146, 49%, 68%),
@@ -42,5 +43,17 @@ $serif: (
  * Spacing Values
  */
 
-$left-padding: 1rem;
-$right-padding: 1rem;
+$content-padding-left: 3rem;
+$content-padding-right: 3rem;
+$content-padding-top: 3rem;
+$content-padding-bottom: 2rem;
+
+/**
+ * Breakpoints for responsive design.
+ * Accessed with mixin handle-breakpoint.
+ */
+
+$breakpoints: (
+  'small-fonts': 1000px,
+  'full-nav': 300px,
+);
