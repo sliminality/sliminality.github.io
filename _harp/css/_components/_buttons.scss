@@ -1,0 +1,25 @@
+$btn-default-color: get-color('dark');
+$btn-default-color-hover: darken(get-color('salmon'), 20%);
+
+/**
+ * 1. Override default browser styling.
+ * 2. Space buttons out evenly.
+ */
+.btn {
+  @include skip-end('margin-left', 1rem);  /* 2 */
+  padding: 1rem 1.5rem;  /* 1 */
+  background-color: transparent;  /* 1 */
+  border: 0.2rem solid $btn-default-color;  /* 1 */
+  font-family: $sans-serif;  /* 1 */
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  /**
+   * Change the color on hover.
+   */
+  &:hover {
+    border-color: $btn-default-color-hover;
+    color: $btn-default-color-hover;
+  }
+}
