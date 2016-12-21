@@ -8,3 +8,22 @@
     url('`#{$file-name}.woff`') format('woff'),
     url('`#{$file-name}.ttf`') format('truetype');
 }
+
+/**
+ * Applies the given $prop with $value for all nth-of-type
+ * except first (if $prop affects the left) or last (if $prop affects the right).
+ */
+@mixin skip-end($prop, $value) {
+  #{$prop}: $value;
+
+  // If property applies to left, skip first-child, otherwise skip last-child.
+  $child: if(
+    str-index($prop, 'left'),
+    'first-of-type',
+    'last-of-type'
+  );
+
+  &:#{$child} {
+    #{$prop}: 0;
+  }
+}
