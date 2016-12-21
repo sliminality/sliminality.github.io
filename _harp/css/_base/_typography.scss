@@ -1,3 +1,91 @@
+$link-color: get-color('dark');
+$link-color-active: get-color('salmon');
+
+///////////////////////
+// BASE & PARAGRAPHS //
+///////////////////////
+
+body {
+  font-family: $sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  color: get-color('dark');
+}
+
 /**
- * Base Typography
+ * 1. Collapse top margin.
  */
+p {
+  margin-top: 0;  // 1
+  letter-spacing: 0.05px;
+}
+
+//////////////
+// HEADINGS //
+//////////////
+
+h1,
+.h1 {
+  margin: 1rem 0;
+
+  &.display {
+    font-family: $serif-display;
+    font-weight: 400;
+  }
+}
+
+h2,
+.h2 {
+  margin: 0.8rem 0;
+}
+
+h3,
+.h3 {
+  margin: 0.6rem 0;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+}
+
+/**
+ * Uppercase, with wider spacing.
+ */
+h4,
+.h4 {
+  margin: 0.4rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+h5,
+.h5,
+h6,
+.h6 {
+  margin: 0.2rem 0;
+}
+
+///////////
+// LINKS //
+///////////
+
+a {
+  color: $link-color;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 1px solid $link-color;
+
+  &:hover {
+    color: $link-color-active;
+    border-color: $link-color-active;
+  }
+}
+
+//////////
+// CODE //
+//////////
+
+pre,
+code[class*="language-"] {
+  font-size: 1.5rem;
+  text-shadow: none;
+  line-height: 1.5;
+}
