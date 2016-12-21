@@ -1,6 +1,25 @@
 doctype
 html
   head
-    link(rel="stylesheet" href="/css/main.css")
+    meta(
+        name="viewport"
+        content="width=device-width, initial-scale=1"
+    )
+    link(
+        rel="stylesheet"
+        href="/css/main.css"
+    )
   body
+    header.site-header
+      h2.site-header__title Sarah Lim
+
+
+    
+
     != yield
+
+    script(
+      type="text/javascript"
+      src="./js/vendor/prism.js"
+      defer
+    )
