@@ -1,34 +1,180 @@
+$nav-z-indices: (
+  'toggle-btn': 2,
+  'overlay': 1,
+);
+
 /////////
 // NAV //
 /////////
 
-.site-nav__hamburger {
+/**
+ * Toggle button for showing/hiding menu.
+ * 1. Position at the top z-layer.
+ */
+.site-nav__toggle {
+  font-family: $sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
+  position: relative;  /* 1 */
+  z-index: map-get($nav-z-indices, 'toggle-btn');
+
   /**
    * Hide by default on page load.
    */
   &--dehydrated {
     display: none;
   }
+}
+
+/**
+ * 1. Overlay is hidden by default.
+ */
+.site-nav__overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: map-get($nav-z-indices, 'overlay');
+  background-color: get-color('mint');
+  visibility: hidden;  /* 1 */
+  opacity: 0;  /* 1 */
 
   /**
-   * Hide for large screens.
+   * Overlay when active, i.e. the toggle button has been clicked.
+   * 1. Show overlay.
+   * 2. Animate transition.
    */
-  @include handle-breakpoint('full-nav') {
-    display: none;
+  &--active {
+    visibility: visible;  /* 1 */
+    opacity: 1;  /* 1 */
+    transition: opacity 0.3s;  /* 2 */
+  }
+
+  /**
+   * Main list of navigation items.
+   * 1. Remove default list styling and increase text size.
+   * 2. Align everything in the center, horizontally and vertically.
+   */
+  > ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    list-style: none;  /* 1 */
+    font-size: 2.4rem;  /* 1 */
+    text-align: center;  /* 2 */
+    position: absolute;  /* 2 */
+    top: 50%;  /* 2 */
+    left: 50%;  /* 2 */
+    transform: translate3d(-50%, -50%, 0);  /* 2 */
+  }
+
+  > ul > li {
+    @include skip-child('padding-top', 1.5rem);
+  }
+
+  /**
+   * Menu overlay in dehydrated state (e.g. JS failed to load).
+   * 1. Make overlay visible, remove background-color.
+   * 2. Remove positioning and alignment.
+   *
+   */
+  &--dehydrated {
+    visibility: visible;  /* 1 */
+    opacity: 1;  /* 1 */
+    background-color: transparent;  /* 1 */
+    position: static;  /* 2 */
+
+    /**
+     * Without JS, we just display everything as an
+     * inline menu.
+     *
+     * NOTE: we inherit width: 100%; from the hydrated state.
+     * In conjunction with `flex-wrap`, this causes the nav to appear on its own line in the header.
+     *
+     * 1. Display list items horizontally, wrap, and pad.
+     * 2. Undo positioning from hydrated state.
+     * 3. Undo large text from hydrated state.
+     * 4. Add margin to separate from header title.
+     */
+    > ul {
+      flex-flow: row wrap;  /* 1 */
+      align-items: baseline;  /* 1 */
+      position: static;  /* 2 */
+      transform: none;
+      font-size: 1.6rem;  /* 3 */
+      margin: 1.5rem 0;  /* 4 */
+    }
+
+    /**
+     * 1. Undo `padding-top` from hydrated state.
+     */
+    > ul > li {
+      @include skip-child('padding-left', 1rem);
+      padding-top: 0;  /* 1 */
+    }
   }
 }
 
-.site-nav__overlay {
-  &--dehydrated {
-    width: 100%;
+/**
+ * On desktop, the menu should display as a horizontal list on the right of the header,
+ * regardless of whether JS is enabled or not.
+ *
+ * That's why this whole media query section is separated out at the end. Here goes nothing!
+ */
+@include handle-breakpoint('full-nav') {
+   /**
+    * Hide toggle button.
+    */
+  .site-nav__toggle {
+    display: none;
   }
 
-  > ul {
-    @include skip-end('padding-left', 1.5rem);
-    list-style: none;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    margin: 1.5rem 0 0;
+  /**
+   * 1. Make overlay visible, remove background-color.
+   * 2. Remove positioning and alignment.
+   * 3. Remove height and width 100%.
+   */
+  .site-nav__overlay {
+    visibility: visible;  /* 1 */
+    opacity: 1;  /* 1 */
+    background-color: transparent;  /* 1 */
+    position: static;  /* 2 */
+    height: auto;  /* 3 */
+    width: auto;  /* 3 */
+
+    /**
+     * 1. Display list items horizontally, wrap, and pad.
+     * 2. Undo positioning from hydrated state.
+     * 3. Undo large text from hydrated state.
+     */
+    > ul {
+      flex-flow: row wrap;  /* 1 */
+      align-items: baseline;  /* 1 */
+      position: static;  /* 2 */
+      transform: none;  /* 2 */
+      font-size: 1.6rem;  /* 3 */
+    }
+
+    /**
+     * Items should not have padding-top, and they
+     * should have left padding.
+     */
+    > ul > li {
+      padding-top: 0;
+      @include skip-child('padding-left', 4rem);
+    }
+
+    &--dehydrated {
+      /**
+       * Don't want vertical margins on desktop.
+       */
+      > ul {
+        margin: 0;
+      }
+    }
   }
 }

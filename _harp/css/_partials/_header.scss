@@ -4,11 +4,6 @@ $header-bg-color: get-color('peach');
 // HEADER //
 ////////////
 
-.site-header,
-.site-header * {
-  outline: 1px solid red;
-}
-
 /**
  * 1. Reset header default margins.
  * 2. Pad with content-*-padding.
@@ -23,6 +18,7 @@ $header-bg-color: get-color('peach');
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  align-items: baseline;
 
   /**
    * 1. Make sure to use regular font-weight, since the serif display

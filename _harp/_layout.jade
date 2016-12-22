@@ -13,14 +13,14 @@ html
     header.site-header
       h2.site-header__title Sarah Lim
       
-      button.site-nav__hamburger.site-nav__hamburger--dehydrated(
+      button.site-nav__toggle.site-nav__toggle--dehydrated(
         aria-controls="site-nav"
         aria-owns="site-nav"
         aria-pressed="false"
         data-js="site-nav-toggle"
       )
         //- Need this for the CSS hamburger icon
-        span.site-nav__hamburger-icon
+        span.site-nav__toggle-icon
           //- Could reuse parent icon span, but prefer to keep a11y and style concerns separate
           span.sr-only Toggle page navigation visibility
           span(aria-hidden="true") Menu
@@ -40,6 +40,11 @@ html
 
     != yield
 
+    
+    script(
+      type="text/javascript"
+      src="./js/main.js"
+    )
     script(
       type="text/javascript"
       src="./js/vendor/prism.js"
