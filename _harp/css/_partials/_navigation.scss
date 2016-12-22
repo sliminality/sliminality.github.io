@@ -1,0 +1,34 @@
+/////////
+// NAV //
+/////////
+
+.site-nav__hamburger {
+  /**
+   * Hide by default on page load.
+   */
+  &--dehydrated {
+    display: none;
+  }
+
+  /**
+   * Hide for large screens.
+   */
+  @include handle-breakpoint('full-nav') {
+    display: none;
+  }
+}
+
+.site-nav__overlay {
+  &--dehydrated {
+    width: 100%;
+  }
+
+  > ul {
+    @include skip-end('padding-left', 1.5rem);
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 1.5rem 0 0;
+  }
+}
