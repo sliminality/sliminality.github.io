@@ -1,0 +1,79 @@
+$intro-bg-color: get-color('peach');
+
+$section-colors: (
+  (
+    'bg': get-color('mint'),
+    'text': get-color('violet'),
+  ),
+  (
+    'bg': get-color('violet'),
+    'text': get-color('peach'),
+  ),
+  (
+    'bg': get-color('yellow'),
+    'text': get-color('violet'),
+  ),
+);
+
+$num-colors: length($section-colors);
+
+$intro-z-indices: (
+  'background-lines': 0,
+  'summary': 1,
+);
+
+//////////////
+// HOMEPAGE //
+//////////////
+
+
+/**
+ * The "colored stripe" sections spanning the whole container width.
+ */
+.full-width {
+  width: 100%;
+  padding-top: $content-padding-top;
+  padding-bottom: $content-padding-bottom;
+  padding-left: $content-padding-left;
+  padding-right: $content-padding-right;
+  background-color: $intro-bg-color;
+
+  /**
+   * Automatically color and highlight each section.
+   */
+  @for $i from 1 through $num-colors {
+    $combo: nth($section-colors, $i);
+    $bg-color: map-get($combo, 'bg');
+    $text-color: map-get($combo, 'text');
+
+    $child: #{$num-colors}n+#{$i + 1};
+
+    &:nth-of-type(#{$child}) {
+      @include text-color($text-color);
+      background-color: $bg-color;
+    }
+  }
+}
+
+/**
+ * The first section.
+ * 1. Manually set the background-color, since it's excluded from the iteration.
+ */
+.intro {
+  padding-top: 25%;
+  background-color: $intro-bg-color;  /* 1 */
+
+  /**
+   * 1. Position the header text so we can use z-score
+   *    to keep it over the background lines.
+   */
+  &__summary {
+    font-family: $serif-display;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 4rem;
+    position: relative;  /* 1 */
+    z-score: map-get($intro-z-indices, 'summary');
+  }
+}

@@ -1,0 +1,30 @@
+$header-bg-color: get-color('peach');
+
+////////////
+// HEADER //
+////////////
+
+/**
+ * 1. Reset header default margins.
+ * 2. Pad with content-*-padding.
+ */
+.site-header {
+  outline: 1px solid red;
+  margin: 0;  /* 1 */
+  padding-left: $content-padding-left;  /* 2 */
+  padding-right: $content-padding-right;  /* 2 */
+  padding-top: $content-padding-top;  /* 2 */
+  padding-bottom: $content-padding-bottom;  /* 2 */
+  background-color: $header-bg-color;
+
+  /**
+   * 1. Make sure to use regular font-weight, since the serif display
+   *    font is already bold.
+   */
+  &__title {
+    font-family: $serif-display;
+    font-weight: 400;  /* 1 */
+    font-size: 2rem;
+    margin: 0;
+  }
+}
