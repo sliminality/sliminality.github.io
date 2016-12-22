@@ -1,7 +1,20 @@
 $nav-z-indices: (
-  'toggle-btn': 2,
-  'overlay': 1,
+  'toggle-btn': 3,
+  'overlay': 2,
 );
+
+@mixin strip-button-default-styles {
+  background-color: transparent;
+  border: none;
+}
+
+@mixin menu-icon-bar {
+  width: 2.75rem;
+  height: 0.3rem;
+  background-color: get-color('dark');
+}
+
+$menu-icon-bar-spacing: 1rem;
 
 /////////
 // NAV //
@@ -10,20 +23,89 @@ $nav-z-indices: (
 /**
  * Toggle button for showing/hiding menu.
  * 1. Position at the top z-layer.
+ * 2. Remove default button styles.
+ * 3. Add padding so the browser focus highlight isn't weirdly-shaped.
  */
 .site-nav__toggle {
+  @include strip-button-default-styles;
   font-family: $sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   letter-spacing: 0.1rem;
   position: relative;  /* 1 */
   z-index: map-get($nav-z-indices, 'toggle-btn');
+  padding-top: 0.5rem;  /* 3 */
+  overflow: hidden;  /* 3 */
 
   /**
    * Hide by default on page load.
    */
   &--dehydrated {
     display: none;
+  }
+
+  /**
+   * Style the hamburger icon.
+   * 1. Display inline-block to allow alignment with "MENU" text.
+   * 2. Vertically align center.
+   * 3. Animate the transition from "X" back to three lines.
+   */
+  &-icon {
+    @include menu-icon-bar;
+    display: inline-block;  /* 1 */
+    position: relative;  /* 2 */
+    transform: translate3d(0, -($menu-icon-bar-spacing / 2), 0);  /* 2 */
+    margin-left: 1rem;
+    transition: transform 0.3s;  /* 3 */
+
+    /**
+     * 1. Display block to allow stacking vertically in line with main element.
+     */
+    &::before,
+    &::after {
+      content: '';
+      @include menu-icon-bar;
+      position: absolute;
+      display: block;  /* 1 */
+    }
+
+    &::before {
+      top: (-1 * $menu-icon-bar-spacing);
+    }
+
+    &::after {
+      bottom: (-1 * $menu-icon-bar-spacing);
+    }
+
+    /**
+     * During active state, menu hamburger animates into an "X".
+     * 1. Rotate the "+" shape (formed by rotating ::before 90deg)
+     *    another 45deg, to get an "X".
+     * 2. Animate the transition.
+     */
+    &--active {
+      transform:
+        translate3d(0, -($menu-icon-bar-spacing / 2), 0)
+        rotate(45deg);  /* 1 */
+      transition: transform 0.3s;  /* 2 */
+
+      /**
+       * Reset the top line to the vertical middle,
+       * then rotate 90 degrees to form a "+" shape.
+       */
+      &::before {
+        top: 0;
+        transform: rotate(90deg);
+        transition: transform 0.3s;
+      }
+
+      /**
+       * We don't need the third line, so hide it.
+       */
+      &::after {
+        display: none;
+      }
+    }
   }
 }
 

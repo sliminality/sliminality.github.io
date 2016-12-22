@@ -1,3 +1,7 @@
+//////////
+// BASE //
+//////////
+
 /**
  * 1. Set 1rem = 10px.
  * 2. Make fonts not look disgusting.
@@ -24,4 +28,12 @@ html {
  */
 pre {
   margin: 2rem 0;
+}
+
+/**
+ * 1. Increase spacing between list items.
+ */
+ul > li,
+ol > li {
+  @include skip-child('margin-bottom', 1rem);
 }

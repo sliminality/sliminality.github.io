@@ -19,11 +19,14 @@ html
         aria-pressed="false"
         data-js="site-nav-toggle"
       )
+        //- Could reuse parent icon span, but prefer to keep a11y and style concerns separate
+        span.sr-only Toggle page navigation visibility
+        span(
+          aria-hidden="true"
+          data-js="site-nav-toggle-text"
+        ) Menu
         //- Need this for the CSS hamburger icon
-        span.site-nav__toggle-icon
-          //- Could reuse parent icon span, but prefer to keep a11y and style concerns separate
-          span.sr-only Toggle page navigation visibility
-          span(aria-hidden="true") Menu
+        span.site-nav__toggle-icon(data-js="site-nav-toggle-icon")
 
       //- Technically, aria-hidden is redundant with `display: none;` but again we are separating a11y and style
       nav#site-nav.site-nav__overlay.site-nav__overlay--dehydrated(
@@ -41,10 +44,7 @@ html
     != yield
 
     
-    script(
-      type="text/javascript"
-      src="./js/main.js"
-    )
+
     script(
       type="text/javascript"
       src="./js/vendor/prism.js"

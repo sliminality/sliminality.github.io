@@ -1,8 +1,17 @@
 $header-bg-color: get-color('peach');
 
+$header-z-indices: (
+  'title': 2,
+);
+
 ////////////
 // HEADER //
 ////////////
+
+/**
+ * NOTE: Navigation is part of the header, but it is
+ * stored in a separate file.
+ */
 
 /**
  * 1. Reset header default margins.
@@ -29,5 +38,6 @@ $header-bg-color: get-color('peach');
     font-weight: 400;  /* 1 */
     font-size: 2rem;
     margin: 0;
+    z-index: map-get($header-z-indices, 'title');
   }
 }
