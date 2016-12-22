@@ -18,7 +18,7 @@
 
   // If property applies to left, skip first-child, otherwise skip last-child.
   $child: if(
-    str-index($prop, 'left'),
+    str-index($prop, 'left') or str-index($prop, 'top'),
     'first-of-type',
     'last-of-type'
   );
