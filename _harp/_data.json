@@ -2,7 +2,7 @@
   "news": [
     {
       "period": "Sep 2022",
-      "description": "<a href=\"https://www.inkandswitch.com/peritext/static/cscw-publication.pdf\">Peritext: A CRDT for Collaborative Rich Text Editing</a> was accepted to <a href=\"https://cscw.acm.org/2022/\">CSCW 2022</a>. This work is a collaboration with <a href=\"https://www.geoffreylitt.com/\">Geoffrey Litt</a>, <a href=\"https://martin.kleppmann.com/\">Martin Kleppman</a>, and <a href=\"https://www.pvh.ca/\">Peter van Hardenberg</a>."
+      "description": "<a href=\"https://www.inkandswitch.com/peritext/static/cscw-publication.pdf\">Peritext: A CRDT for Collaborative Rich Text Editing</a> was accepted to <a href=\"https://cscw.acm.org/2022/\">CSCW 2022</a>. This work is a collaboration with <a href=\"https://www.geoffreylitt.com/\">Geoffrey Litt</a>, <a href=\"https://martin.kleppmann.com/\">Martin Kleppmann</a>, and <a href=\"https://www.pvh.ca/\">Peter van Hardenberg</a>."
     },
     {
       "period": "Jun 2022",
@@ -26,7 +26,7 @@
     },
     {
       "period": "Nov 2021",
-      "description": "New essay with <a href=\"https://www.geoffreylitt.com/\">Geoffrey Litt</a>, <a href=\"https://martin.kleppmann.com/\">Martin Kleppman</a>, and <a href=\"https://www.pvh.ca/\">Peter van Hardenberg</a>: <a href=\"https://www.inkandswitch.com/peritext/\">Peritext: A CRDT for Rich-Text Collaboration</a> chronicles our efforts to create a working CRDT for rich text."
+      "description": "New essay with <a href=\"https://www.geoffreylitt.com/\">Geoffrey Litt</a>, <a href=\"https://martin.kleppmann.com/\">Martin Kleppmann</a>, and <a href=\"https://www.pvh.ca/\">Peter van Hardenberg</a>: <a href=\"https://www.inkandswitch.com/peritext/\">Peritext: A CRDT for Rich-Text Collaboration</a> chronicles our efforts to create a working CRDT for rich text."
     },
     {
       "period": "Oct 2021",
@@ -151,7 +151,7 @@
       "tags": [
         "research"
       ],
-      "description": "Conflict-free Replicated Data Types (CRDTs) are commonly viewed as the holy grail of collaboration algorithms because they are mathematically well-behaved in comparison to approaches based on Operational Transforms (OT). Yet few CRDTs provide first-class support for rich text collaboration. We study the design principles for a rich text CRDT and present a prototype implementation, including algorithms for inserting and deleting text with formatting annotations. Collaboration with <a href=\"https://www.geoffreylitt.com/\">Geoffrey Litt</a>, <a href=\"https://martin.kleppmann.com/\">Martin Kleppman</a>, and <a href=\"https://www.pvh.ca/\">Peter van Hardenberg</a>.",
+      "description": "Conflict-free Replicated Data Types (CRDTs) are commonly viewed as the holy grail of collaboration algorithms because they are mathematically well-behaved in comparison to approaches based on Operational Transforms (OT). Yet few CRDTs provide first-class support for rich text collaboration. We study the design principles for a rich text CRDT and present a prototype implementation, including algorithms for inserting and deleting text with formatting annotations. Collaboration with <a href=\"https://www.geoffreylitt.com/\">Geoffrey Litt</a>, <a href=\"https://martin.kleppmann.com/\">Martin Kleppmann</a>, and <a href=\"https://www.pvh.ca/\">Peter van Hardenberg</a>.",
       "links": {
         "paper": "https://www.inkandswitch.com/peritext/static/cscw-publication.pdf",
         "link": "https://www.inkandswitch.com/peritext",
