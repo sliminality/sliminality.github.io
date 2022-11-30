@@ -1,6 +1,10 @@
 {
   "news": [
     {
+      "period": "Nov 2022",
+      "description": "Chrome 108 ships with <a href=\"https://developer.chrome.com/en/blog/new-in-devtools-108/#css-hint\">hints for inactive CSS properties</a>, based on our research with <a href=\"assets/papers/ply-uist.pdf\">Ply</a>."
+    },
+    {
       "period": "Sep 2022",
       "description": "<a href=\"https://www.inkandswitch.com/peritext/static/cscw-publication.pdf\">Peritext: A CRDT for Collaborative Rich Text Editing</a> was accepted to <a href=\"https://cscw.acm.org/2022/\">CSCW 2022</a>. This work is a collaboration with <a href=\"https://www.geoffreylitt.com/\">Geoffrey Litt</a>, <a href=\"https://martin.kleppmann.com/\">Martin Kleppmann</a>, and <a href=\"https://www.pvh.ca/\">Peter van Hardenberg</a>."
     },
@@ -176,7 +180,7 @@
         "research",
         "development"
       ],
-      "description": "CSS is syntactically straightforward, but has a steep learning curve and complicated semantics. Inspecting the source of existing webpages can help illustrate concepts, but such webpages are typically too complex to serve as useful learning materials. Drawing inspiration from prior research in both software engineering and the learning sciences, we present a novel web inspection tool and set of techniques for analyzing relevant CSS. We introduce the concept of <a href=\"https://gist.github.com/sliminality/c44df66647fe9a252b0064d3259fde74\">implicit dependencies</a> between CSS properties, which represent a major source of confusion for programmers. As a result of this work, Mozilla Firefox 70 ships with <a href=\"https://hacks.mozilla.org/2019/10/firefox-70-a-bountiful-release-for-all/#developertools\">Inactive CSS</a> to help identify and surface implicit dependencies within the Firefox Developer Tools. Supervised by Haoqi Zhang and Nell O&rsquo;Rourke. Honorable Mention Paper at UIST 2018, Berlin.",
+      "description": "CSS is syntactically straightforward, but has a steep learning curve and complicated semantics. Inspecting the source of existing webpages can help illustrate concepts, but such webpages are typically too complex to serve as useful learning materials. Drawing inspiration from prior research in both software engineering and the learning sciences, we present a novel web inspection tool and set of techniques for analyzing relevant CSS. We introduce the concept of <a href=\"https://gist.github.com/sliminality/c44df66647fe9a252b0064d3259fde74\">implicit dependencies</a> between CSS properties, which represent a major source of confusion for programmers. As a result of this work, Mozilla Firefox 70 ships with <a href=\"https://hacks.mozilla.org/2019/10/firefox-70-a-bountiful-release-for-all/#developertools\">Inactive CSS</a> to help identify and surface implicit dependencies within the Firefox Developer Tools. As of late 2022, <a href=\"https://developer.chrome.com/en/blog/new-in-devtools-108/#css-hint\">Chrome 108</a> supports the same! Supervised by Haoqi Zhang and Nell O&rsquo;Rourke. Honorable Mention Paper at UIST 2018, Berlin.",
       "links": {
         "paper": "assets/papers/ply-uist.pdf",
         "talk": "https://www.youtube.com/watch?v=n2dFxxBh2K4",
