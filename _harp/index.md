@@ -1,4 +1,4 @@
-My name is Slim. I am a computer scientist and 18th grade student at [UC Berkeley](https://cs.berkeley.edu/), advised by [Sarah Chasins](https://schasins.com/) under the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/) and UC Berkeley Chancellor’s Fellowship. I am currently on leave from my PhD and will be moving to London to open the [Notion](https://notion.so/about) engineering office.
+My name is Slim. I am a computer scientist and 18th grade student at [UC Berkeley](https://cs.berkeley.edu/), advised by [Sarah Chasins](https://schasins.com/) under the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/) and UC Berkeley Chancellor’s Fellowship.
 
 My research interests span programming languages, human factors, and learning sciences.
 I study _programming languages as user interfaces_: in short, how the syntactic and semantic properties of a language shape the way people reason about and write programs in the real world. 
