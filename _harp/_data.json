@@ -134,17 +134,27 @@
       },
       {
         "title": "GitHub",
-        "url": "http://github.com/sliminality",
+        "url": "https://github.com/sliminality",
         "icon": "fa-github-alt"
       },
       {
         "title": "Twitter",
-        "url": "http://twitter.com/sliminality",
+        "url": "https://twitter.com/sliminality",
         "icon": "fa-twitter"
       },
       {
+        "title": "Mastodon",
+        "url": "https://types.pl/@sliminality",
+        "icon": "fa-brands fa-mastodon"
+      },
+      {
+        "title": "Bluesky",
+        "url": "https://bsky.app/profile/slim.bsky.social",
+        "icon": "fa-solid fa-cloud"
+      },
+      {
         "title": "LinkedIn",
-        "url": "http://linkedin.com/in/sliminality",
+        "url": "https://linkedin.com/in/sliminality",
         "icon": "fa-linkedin"
       }
     ]
