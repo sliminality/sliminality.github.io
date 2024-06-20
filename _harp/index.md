@@ -18,13 +18,15 @@ I have a lot of hobbies:
 
 - I am a classically-trained flutist, currently studying with [Evan Pengra Sult](https://blogpnborg.wordpress.com/2020/12/14/letters-from-pnb-artists-evan-pengra-sult-pnb-orchestra-member/).
 
-- My goal is to ride every Amtrak long-distance route with a West Coast terminus. So far I’ve ridden the [California Zephyr](https://www.amtrak.com/routes/california-zephyr-train.html) twice, [Coast Starlight](https://www.amtrak.com/routes/coast-starlight-train.html) seven times, and the [Sunset Limited](https://www.amtrak.com/routes/sunset-limited-train.html) and [Empire Builder](https://www.amtrak.com/routes/empire-builder-train.html) once each.
+- I have [ridden](https://x.com/sliminality/status/1742923142786613414)My every Amtrak long-distance route with a West Coast terminus: the [California Zephyr](https://www.amtrak.com/routes/california-zephyr-train.html) twice, [Coast Starlight](https://www.amtrak.com/routes/coast-starlight-train.html) seven times, and the [Sunset Limited](https://www.amtrak.com/routes/sunset-limited-train.html), [Empire Builder](https://www.amtrak.com/routes/empire-builder-train.html), and [Southwest Chief](https://www.amtrak.com/southwest-chief-train.html) once each.
 
-- Policy debate is a [niche](https://www.wired.com/2012/01/ff-debateteam/), [all-consuming](https://www.motherjones.com/politics/2006/11/revenge-nerds/), and [occasionally-fraught](https://www.wnycstudios.org/podcasts/radiolab/articles/debatable) subculture that defined my adolescent and early adult identity. I founded the [Interlake Policy Debate](https://www.facebook.com/InterlakeDebate/) team, which continues to be nationally successful more than ten years later, and was part of the [Northwestern Debate Society](https://communication.northwestern.edu/debate-society/) during our historic [15th national championship](https://news.northwestern.edu/stories/2015/04/northwestern-debate-society-wins-record-15th-title). Debate has shaped me profoundly, and bootstrapping a high school team with no resources or coaching remains the hardest thing I have ever accomplished.
+- I coach competitive policy debate [policy debate](https://www.wired.com/2012/01/ff-debateteam/) for [Interlake High School](https://www.facebook.com/InterlakeDebate/), where I founded the team in 2011, and [Northwestern University](https://communication.northwestern.edu/debate-society/), where I was part of the team during our historic [15th national championship](https://news.northwestern.edu/stories/2015/04/northwestern-debate-society-wins-record-15th-title).
 
-Auxiliary interests include [browser engines](https://servo.org/), type systems, text editors, [Nix](https://twitter.com/sliminality/status/1490829891004080128), [WebAssembly](https://webassembly.org/), [Rust](https://www.rust-lang.org/en-US/), [Haskell](https://www.haskell.org), [crossword puzzles](https://twitter.com/soylentqueen/status/1002202872266874880), [document preparation](https://pandoc.org/), coiling and soldering custom USB cables, the Nintendo Switch, ultralight backpacking, jazz, [wilderness emergency medicine](https://www.wms.org/magazine/1176/WFR-Scope-Of-Practive), and critical theory.
+    Debate has shaped me profoundly, and bootstrapping a high school team with no resources or coaching remains the hardest thing I have ever accomplished.
 
-Here are a few of my 99 theses:
+Auxiliary interests include figure skating, midcentury furniture design, typography, [browser engines](https://servo.org/), type systems, text editors, [Nix](https://twitter.com/sliminality/status/1490829891004080128), [WebAssembly](https://webassembly.org/), [Rust](https://www.rust-lang.org/en-US/), [Haskell](https://www.haskell.org), [crossword puzzles](https://twitter.com/soylentqueen/status/1002202872266874880), [document preparation](https://pandoc.org/), coiling and soldering custom USB cables, the Nintendo Switch, ultralight backpacking, jazz, [wilderness emergency medicine](https://www.wms.org/magazine/1176/WFR-Scope-Of-Practive), and critical theory.
+
+Here are a few of my 95 theses:
 
 - [Stop using “uni-typed” pejoratively to dunk on dynamically-typed languages](https://twitter.com/sliminality/status/1317331148360437760)
 - [Prominent individuals do others no favors by downplaying their own knowledge](https://twitter.com/sliminality/status/1378809329894060032)
@@ -32,8 +34,8 @@ Here are a few of my 99 theses:
 - [What is playing by ear, for mathematics?](https://twitter.com/sliminality/status/1532065517736849408)
 - [I wish we understood why programmers have such poor intuitions about performance](https://twitter.com/sliminality/status/1313614499736297472)
 - [Block vs. inline is a leaky and unintuitive abstraction for document editors](https://twitter.com/sliminality/status/1285324183413518337)
-- [“Listening and learning” is the new “thoughts and prayers”](https://twitter.com/sliminality/status/1282736177305403392)
 - [Code review should use a directed graph, not a linked list](https://twitter.com/sliminality/status/1275922682895192065)
 - [Articulating injustice is more important than, but not mutually exclusive with, preserving your intellectual brand](https://twitter.com/sliminality/status/1267228511233667072)
 - [Type errors are our friends and teachers](https://twitter.com/sliminality/status/1140838786043002881) (*and corollary:* [Better error messages help users conceptualize compilers as friendly guides rather than angry jerks](https://twitter.com/sliminality/status/1334654707575353345))
 
+You can find more on my [blog](https://slim.computer/blug).
