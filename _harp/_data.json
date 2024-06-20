@@ -348,6 +348,10 @@
   ],
   "nav": [
     {
+      "title": "Blog",
+      "url": "/blug"
+    },
+    {
       "title": "News",
       "url": "#news"
     },
