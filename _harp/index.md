@@ -24,7 +24,7 @@ I have a lot of hobbies:
 
     Debate has shaped me profoundly, and bootstrapping a high school team with no resources or coaching remains the hardest thing I have ever accomplished.
 
-Auxiliary interests include figure skating, midcentury furniture design, typography, [browser engines](https://servo.org/), type systems, text editors, [Nix](https://twitter.com/sliminality/status/1490829891004080128), [WebAssembly](https://webassembly.org/), [Rust](https://www.rust-lang.org/en-US/), [Haskell](https://www.haskell.org), [crossword puzzles](https://twitter.com/soylentqueen/status/1002202872266874880), [document preparation](https://pandoc.org/), coiling and soldering custom USB cables, the Nintendo Switch, ultralight backpacking, jazz, [wilderness emergency medicine](https://www.wms.org/magazine/1176/WFR-Scope-Of-Practive), and critical theory.
+My other interests include figure skating, midcentury furniture design, typography, [browser engines](https://servo.org/), type systems, text editors, [Nix](https://twitter.com/sliminality/status/1490829891004080128), [WebAssembly](https://webassembly.org/), [Rust](https://www.rust-lang.org/en-US/), [Haskell](https://www.haskell.org), [crossword puzzles](https://twitter.com/soylentqueen/status/1002202872266874880), [document preparation](https://pandoc.org/), coiling and soldering custom USB cables, the Nintendo Switch, ultralight backpacking, jazz, [wilderness emergency medicine](https://www.wms.org/magazine/1176/WFR-Scope-Of-Practive), and critical theory.
 
 Here are a few of my 95 theses:
 
