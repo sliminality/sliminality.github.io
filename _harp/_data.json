@@ -1,6 +1,22 @@
 {
   "news": [
     {
+      "period": "July 2025",
+      "description": "I gave a talk about <a href=\"assets/teaching/baseball.pdf\">baseball</a> at OPLSS 2025."
+    },
+    {
+      "period": "May 2025",
+      "description": "I am (surprise) on the program committee for <a href=\"https://conf.researchr.org/home/icfp-splash-2025/hatra-2025\">HATRA 2025</a> so please submit your stuff."
+    },
+    {
+      "period": "May 2024",
+      "description": "I am on the program committee for <a href=\"https://2024.splashcon.org/home/hatra-2024\">HATRA 2024</a> and student volunteering at <a href=\"https://2024.splashcon.org/\">SPLASH</a>."
+    },
+    {
+      "period": "May 2023",
+      "description": "I am on the program committee for <a href=\"https://2023.splashcon.org/home/hatra-2023\">HATRA 2023</a>."
+    },
+    {
       "period": "Nov 2022",
       "description": "Chrome 108 ships with <a href=\"https://developer.chrome.com/en/blog/new-in-devtools-108/#css-hint\">hints for inactive CSS properties</a>, based on our research with <a href=\"assets/papers/ply-uist.pdf\">Ply</a>."
     },
