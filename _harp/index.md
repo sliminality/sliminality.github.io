@@ -1,4 +1,4 @@
-My name is Slim, and I am a computer scientist. Depending on my mood I am either a software engineer at [Notion](https://notion.so) or a PhD student at [UC Berkeley](https://cs.berkeley.edu/), advised by [Sarah Chasins](https://schasins.com/) under the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/) and UC Berkeley Chancellor’s Fellowship.
+My name is Slim, and I am a computer scientist. Depending on my mood I am either a research scientist at [Notion](https://notion.so) or a PhD student at [UC Berkeley](https://cs.berkeley.edu/), advised by [Sarah Chasins](https://schasins.com/) under the [NSF Graduate Research Fellowship](https://www.nsfgrfp.org/) and UC Berkeley Chancellor’s Fellowship.
 
 My research interests span programming languages, human factors, and learning sciences.
 I study _programming languages as user interfaces_: in short, how the syntactic and semantic properties of a language shape the way people reason about and write programs in the real world. 
@@ -20,7 +20,7 @@ I have a lot of hobbies:
 
 - I have [ridden](https://x.com/sliminality/status/1742923142786613414) every Amtrak long-distance route with a West Coast terminus: the [California Zephyr](https://www.amtrak.com/routes/california-zephyr-train.html) twice, [Coast Starlight](https://www.amtrak.com/routes/coast-starlight-train.html) seven times, and the [Sunset Limited](https://www.amtrak.com/routes/sunset-limited-train.html), [Empire Builder](https://www.amtrak.com/routes/empire-builder-train.html), and [Southwest Chief](https://www.amtrak.com/southwest-chief-train.html) once each.
 
-- I coach competitive policy debate [policy debate](https://www.wired.com/2012/01/ff-debateteam/) for [Interlake High School](https://www.facebook.com/InterlakeDebate/), where I founded the team in 2011, and [Northwestern University](https://communication.northwestern.edu/debate-society/), where I was part of the team during our historic [15th national championship](https://news.northwestern.edu/stories/2015/04/northwestern-debate-society-wins-record-15th-title).
+- I coach competitive [policy debate](https://www.wired.com/2012/01/ff-debateteam/) for [Interlake High School](https://www.facebook.com/InterlakeDebate/), where I founded the team in 2011, and [Northwestern University](https://communication.northwestern.edu/debate-society/), where I was part of the team during our historic [15th national championship](https://news.northwestern.edu/stories/2015/04/northwestern-debate-society-wins-record-15th-title).
 
     Debate has shaped me profoundly, and bootstrapping a high school team with no resources or coaching remains the hardest thing I have ever accomplished.
 
