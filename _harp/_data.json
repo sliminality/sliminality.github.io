@@ -1,8 +1,12 @@
 {
   "news": [
     {
+      "period": "Dec 2025",
+      "description": "I presented <a href=\"/concrete-syntax\">Concrete syntax matters, actually</a> at the <a href=\"https://topos.institute/events/topos-colloquium/\">Topos Institute Colloquium</a>. This talk combines a lot of what I’ve been thinking about recently at the intersection of PL design and human factors, based on experiences in academia and industry."
+    },
+    {
       "period": "July 2025",
-      "description": "I gave a talk about <a href=\"assets/teaching/baseball.pdf\">baseball</a> at OPLSS 2025."
+      "description": "I gave a talk about how I became obsessed with <a href=\"assets/teaching/baseball.pdf\">baseball</a> at OPLSS 2025. This represents my best work ever."
     },
     {
       "period": "May 2025",
@@ -144,7 +148,7 @@
   "about": {
     "links": [
       {
-        "title": "CV",
+        "title": "CV (outdated)",
         "url": "assets/cv-lim.pdf",
         "icon": "fa-file-text-o"
       },
@@ -154,28 +158,34 @@
         "icon": "fa-github-alt"
       },
       {
-        "title": "Twitter",
+        "title": "Twitter (less active, curated work/normie posting)",
         "url": "https://twitter.com/sliminality",
         "icon": "fa-twitter"
       },
       {
-        "title": "Mastodon",
+        "title": "Mastodon (most active, uncurated PL/personal)",
         "url": "https://types.pl/@sliminality",
         "icon": "fa-brands fa-mastodon"
       },
       {
-        "title": "Bluesky",
+        "title": "Bluesky (least active, mostly personal/casual)",
         "url": "https://bsky.app/profile/slim.bsky.social",
-        "icon": "fa-solid fa-cloud"
-      },
-      {
-        "title": "LinkedIn",
-        "url": "https://linkedin.com/in/sliminality",
-        "icon": "fa-linkedin"
+        "icon": "fa-brands fa-bluesky"
       }
     ]
   },
   "projects": [
+    {
+      "title": "Concrete syntax matters, actually",
+      "tags": [
+        "research"
+      ],
+      "description": "Too many programming languages researchers dismiss concrete syntax as an afterthought—arbitrary, superficial, or distracting from matters of “actual” semantic importance. This received view ignores a critical factor: the human at the computer. Concrete syntax defines the principal interface through which programmers interact with the vast majority of programming languages. Moreover, this interface is hardly decoupled from semantics; even trivial-seeming differences in keywords, sigils, and indentation can affect how programmers utilize and reason about language behavior. Using examples from asynchronous control flow, gradual subtyping, first-class functions, and more, I will make a case for the importance of concrete syntax, why language designers often overlook it, and what this implies for those of us who care about the usability of abstractions.",
+      "links": {
+        "talk": "https://www.youtube.com/watch?v=kQjrcSMYpaA",
+        "slides": "/concrete-syntax"
+      }
+    },
     {
       "title": "Peritext: A CRDT for Rich-Text Collaboration",
       "tags": [
